@@ -1,5 +1,5 @@
 #open the file in read mode
-with open('../Texts/The Meditations of the Emperor Marcus Aurelius Antoninus by Marcus Aurelius.txt', encoding = 'utf-8') as file:
+with open('The Meditations of the Emperor Marcus Aurelius Antoninus by Marcus Aurelius.txt', encoding = 'utf-8') as file:
     # Read the contents of the file
     content = file.read()
 
@@ -60,3 +60,4 @@ for x in results:
         output += y
         
 print(output)
+
